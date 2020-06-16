@@ -23,6 +23,8 @@ body{
      
 }
 .right-container{
+    border:3px solid slategray ;
+    border-radius:7px ;
      
 }
 .image-css{
