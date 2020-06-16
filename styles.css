@@ -1,0 +1,68 @@
+body{
+     
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./images/bg-cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1; 
+     
+}
+.main-container{
+    margin-top : 20px;
+    z-index:1;
+     
+}
+.add-left{
+
+}
+.remove-right{
+
+}
+.left-container{
+    border:3px solid slategray ;
+    border-radius:7px ;
+     
+}
+.right-container{
+     
+}
+.image-css{
+     height:100px;
+     width: 100px;
+}
+.image-div{
+    border : 2px solid red; 
+    border-radius : 6px;
+}
+h2{
+    margin-top: 5px;
+    font-family: MuseoModerno, Cursive;
+}
+.price-para{
+    text-align : center;
+    font-weight: bold;
+    font-size: larger;
+     
+}
+.price-div{
+    border : 2px solid blue;
+
+}
+.btn-outline-success{
+    justify-content: center;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .add-to-cart-div{
+      border: 2px solid green;
+  }
+  h3{
+      text-align: center;
+      font-family: MuseoModerno, Cursive; 
+  }
+ 
