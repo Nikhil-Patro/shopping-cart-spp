@@ -18,12 +18,12 @@ body{
 
 }
 .left-container{
-    border:3px solid slategray ;
+    border:3px solid black ;
     border-radius:7px ;
      
 }
 .right-container{
-    border:3px solid slategray ;
+    border:3px solid black ;
     border-radius:7px ;
      
 }
@@ -31,10 +31,7 @@ body{
      height:100px;
      width: 100px;
 }
-.image-div{
-    border : 2px solid red; 
-    border-radius : 6px;
-}
+
 h2{
     margin-top: 5px;
     font-family: MuseoModerno, Cursive;
@@ -45,10 +42,7 @@ h2{
     font-size: larger;
      
 }
-.price-div{
-    border : 2px solid blue;
 
-}
 .btn-outline-success{
     justify-content: center;
 }
@@ -60,11 +54,16 @@ h2{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  .add-to-cart-div{
-      border: 2px solid green;
-  }
+
   h3{
       text-align: center;
       font-family: MuseoModerno, Cursive; 
   }
- 
+#shop_empty_warning{
+    display:none;
+    text-align:center;
+}
+#cart_empty_warning{
+    display:inline;
+    text-align:center;
+}
