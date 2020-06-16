@@ -1,35 +1,35 @@
 let all_items_array =[
     {
         id : 1,
-        name : boots,
+        name : "boots",
         price : 1000,
         inCart : false,
         inShop : true,
     },
     {
         id : 2,
-        name : mask,
+        name : "mask",
         price : 50,
         inCart : false,
         inShop : true,
     },
     {
         id : 3,
-        name : raincoat,
+        name : "raincoat",
         price : 1000,
         inCart : false,
         inShop : true,
     },
     {
         id : 4,
-        name : sweatshirt,
+        name : "sweatshirt",
         price : 2000,
         inCart : false,
         inShop : true,
     },
     {
         id : 5,
-        name : umbrella,
+        name : "umbrella",
         price : 350,
         inCart : false,
         inShop : true,
@@ -54,4 +54,4 @@ button4.addEventListener("click", function(){
 button5.addEventListener("click", function(){
     console.log("Hi");
 });
- 
+console.log("Testing");
