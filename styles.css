@@ -11,12 +11,6 @@ body{
     z-index:1;
      
 }
-.add-left{
-
-}
-.remove-right{
-
-}
 .left-container{
     border:3px solid black ;
     border-radius:7px ;
@@ -66,4 +60,11 @@ h2{
 #cart_empty_warning{
     display:inline;
     text-align:center;
+}
+#totalamt{
+    display: none;
+}
+#totalhead{
+    font-family: MuseoModerno, Cursive;
+    font-weight : bold;
 }

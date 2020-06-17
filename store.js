@@ -46,16 +46,34 @@ function checkShopEmpty(){
 
 function checkCartEmpty(){
     if(cart_array[0] == null){
-        let right_container  = document.getElementById("cart_empty_warning");
-        right_container.style.display = "inline";
+        let cart_empty_warning  = document.getElementById("cart_empty_warning");
+        cart_empty_warning.style.display = "inline";
+        let totalamt = document.getElementById("totalamt");
+        totalamt.style.display = "none";
     }
     else {
-        let heading  = document.getElementById("cart_empty_warning");
-        heading.style.display = "none";
+        let cart_empty_warning  = document.getElementById("cart_empty_warning");
+        cart_empty_warning.style.display = "none";
+        let totalamt = document.getElementById("totalamt");
+        totalamt.style.display = "inline";   
+        let amt = totalAmount();
+        let totalhead  = document.getElementById("totalhead");
+        totalhead.innerHTML = "Total : " + amt;
+        totalhead.style.fontFamily = "MuseoModerno";
+        totalhead.style.fontWeight = "bold";
+        totalhead.style.textAlign = "right";
+        totalhead.style.marginRight = "20px";
+        totalhead.style.marginTop = "5px";
         }
     }
 
-
+function totalAmount(){
+    let sum = 0;
+    for(let i = 0;i < cart_array.length;i++){
+        sum += cart_array[i].price; 
+    }
+    return sum;
+}
  
  
 function addToCart(){
