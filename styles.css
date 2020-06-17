@@ -68,3 +68,6 @@ h2{
     font-family: MuseoModerno, Cursive;
     font-weight : bold;
 }
+@media screen and (max-width:768px) {
+    .remove-right {margin-top:10px;}
+  }
